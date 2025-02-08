@@ -1,0 +1,6 @@
+logreg - group parameters?, probability, odds ratio
+gda - misclassed
+Scale
+cmperrpr
+pollightmicro
+linreg - prediction interval, s.e. parameters

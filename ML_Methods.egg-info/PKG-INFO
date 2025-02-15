@@ -3,8 +3,8 @@ Name: ML-Methods
 Version: 0.2.0
 Summary: Implementation of machine learning algorithms.
 Author-email: Kor Shantanu Nitin <korshantanu@gmail.com>
-Project-URL: Homepage, https://github.com/putterPatcher/deciml
-Project-URL: Issues, https://github.com/putterPatcher/deciml/issues
+Project-URL: Homepage, https://github.com/putterPatcher/ML-Methods
+Project-URL: Issues, https://github.com/putterPatcher/ML-Methods/issues
 Classifier: Programming Language :: Python :: 3
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.8

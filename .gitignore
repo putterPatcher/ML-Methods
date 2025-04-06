@@ -1,4 +1,4 @@
 ML_Methods.egg-info
 pyproject.toml
 dist
-./ml_methods/changes.txt
+changes.txt

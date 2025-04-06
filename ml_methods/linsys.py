@@ -1,11 +1,7 @@
-import os, sys
-
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-from utils.deciml import abs, algbra as alg, Decimal
-from utils.cmpr import eqval, tdeciml, tint
-from utils.terminate import retrn
-from dobj.matrix import matx, matutils
+from deciml.deciml import abs, algbra as alg, Decimal
+from compare.cmpr import eqval, tdeciml, tint
+from terminate import retrn
+from deciml_maths.matrix import matx, matutils
 from algoutils import Calculate
 
 

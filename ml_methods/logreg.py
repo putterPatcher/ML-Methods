@@ -1,13 +1,8 @@
-import os, sys
-
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-
-from utils.deciml import deciml, algbra as alg, constant as cnst, stat, galgbra as galg, Decimal
-from utils.cmpr import eqval, eqllen, tdict, tdata, tdeciml, tint
-from utils.terminate import retrn
-from dobj.matrix import matx, matutils, melutils
-from dobj.data import data, datautils
+from deciml.deciml import deciml, algbra as alg, constant as cnst, stat, galgbra as galg, Decimal
+from compare.cmpr import eqval, eqllen, tdict, tdata, tdeciml, tint
+from terminate import retrn
+from deciml_maths.matrix import matx, matutils, melutils
+from deciml_maths.data import data, datautils
 from algoutils import parameter, function, Scale, Calculate, GetData
 
 

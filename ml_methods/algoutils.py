@@ -1,14 +1,9 @@
-import os, sys
-
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-
 import json
-from utils.deciml import deciml, algbra as alg,  Decimal, galgbra as galg, abs
-from utils.cmpr import eqval, tdeciml, tdata, tdict, tmatx
-from utils.terminate import retrn
-from dobj.matrix import matx, matutils
-from dobj.data import data
+from deciml.deciml import deciml, algbra as alg,  Decimal, galgbra as galg, abs
+from compare.cmpr import eqval, tdeciml, tdata, tdict, tmatx
+from terminate import retrn
+from deciml_maths.matrix import matx, matutils
+from deciml_maths.data import data
 
 
 class apn:

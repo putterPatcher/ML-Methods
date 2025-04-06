@@ -1,12 +1,8 @@
-import os, sys
-
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-from utils.deciml import deciml, constant as cnst, algbra as alg, stat, Decimal
-from utils.cmpr import eqval, tdict, tdata
-from utils.terminate import retrn
-from dobj.matrix import matx, matutils
-from dobj.data import data
+from deciml.deciml import deciml, constant as cnst, algbra as alg, stat, Decimal
+from compare.cmpr import eqval, tdict, tdata
+from terminate import retrn
+from deciml_maths.matrix import matx, matutils
+from deciml_maths.data import data
 
 
 class _Predict:

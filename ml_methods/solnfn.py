@@ -1,13 +1,8 @@
-import os, sys
-
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-
-from dobj.functions import funcutils, poly
-from dobj.matrix import matutils, matx
-from utils.deciml import algbra as alg, abs
-from utils.cmpr import eqval, tint
-from utils.terminate import retrn
+from deciml_maths.functions import funcutils, poly
+from deciml_maths.matrix import matutils, matx
+from deciml.deciml import algbra as alg, abs
+from compare.cmpr import eqval, tint
+from terminate import retrn
 
 
 class SolveFn:
